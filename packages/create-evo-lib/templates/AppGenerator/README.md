@@ -1,11 +1,23 @@
-# kg-chatbot-ui
+# create-evo-lib
 
 ## Getting Started
+
+Init library
+
+```bash
+$ npm run init
+```
+
+Publish library
+
+```bash
+$ npm run library
+```
 
 Install dependencies,
 
 ```bash
-$ npm i
+$ yarn install
 ```
 
 Start the dev server,
@@ -25,3 +37,4 @@ Build library via `father-build`,
 ```bash
 $ npm run build
 ```
+

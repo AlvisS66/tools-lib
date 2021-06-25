@@ -1,11 +1,23 @@
-# kg-chatbot-ui
+# tools-lib
 
 ## Getting Started
+
+Init library
+
+```bash
+$ npm run init
+```
+
+Publish library
+
+```bash
+$ npm run library
+```
 
 Install dependencies,
 
 ```bash
-$ npm i
+$ yarn install
 ```
 
 Start the dev server,

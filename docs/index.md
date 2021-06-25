@@ -1,7 +1,7 @@
 ---
 hero:
-  title: kg-chatbot-ui
-  desc: kg-chatbot-ui site example
+  title: tools-lib
+  desc: tools-lib site example
   actions:
     - text: Getting Started
       link: /components
@@ -17,5 +17,4 @@ features:
     desc: Balabala
 footer: Open-source MIT Licensed | Copyright © 2020<br />Powered by [dumi](https://d.umijs.org)
 ---
-
-## Hello kg-chatbot-ui!
+## Hello tools-lib!

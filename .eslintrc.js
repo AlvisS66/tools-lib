@@ -1,0 +1,8 @@
+module.exports = {
+  extends: [require.resolve('@umijs/fabric/dist/eslint')],
+  rules: {
+    'no-console': 'off',
+    'prefer-const': 'off',
+    'global-require': 0,
+  },
+};

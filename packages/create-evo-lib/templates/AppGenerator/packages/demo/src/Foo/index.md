@@ -3,14 +3,13 @@ nav:
   title: Components
   path: /components
 ---
-
 ## Foo
 
 Demo:
 
 ```tsx
 import React from 'react';
-import { Foo } from 'kg-chatbot-ui';
+import { Foo } from 'demo';
 
 export default () => <Foo title="First Demo" />;
 ```

@@ -1,6 +1,6 @@
 ---
 hero:
-  title: kg-chatbot-ui
+  title: create-evo-lib
   desc: kg-chatbot-ui site example
   actions:
     - text: Getting Started
@@ -17,5 +17,4 @@ features:
     desc: Balabala
 footer: Open-source MIT Licensed | Copyright © 2020<br />Powered by [dumi](https://d.umijs.org)
 ---
-
-## Hello kg-chatbot-ui!
+## Hello create-evo-lib!

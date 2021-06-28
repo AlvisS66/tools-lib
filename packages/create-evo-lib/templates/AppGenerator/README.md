@@ -11,7 +11,7 @@ $ npm run init
 Publish library
 
 ```bash
-$ npm run library
+$ npm run pub
 ```
 
 Install dependencies,
@@ -37,4 +37,3 @@ Build library via `father-build`,
 ```bash
 $ npm run build
 ```
-

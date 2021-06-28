@@ -11,7 +11,7 @@ $ npm run init
 Publish library
 
 ```bash
-$ npm run library
+$ npm run pub
 ```
 
 Install dependencies,

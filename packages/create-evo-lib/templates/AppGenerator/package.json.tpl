@@ -44,7 +44,6 @@
     "@types/jest": "^24.0.13",
     "cross-env": "^7.0.3",
     "dumi": "^1.1.20",
-    "dumi-theme-mobile": "^1.0.16",
     "eslint": "^7.28.0",
     "father-build": "^1.19.6",
     "gh-pages": "^3.0.0",

@@ -78,7 +78,10 @@ Build library via `father-build`,
 $ npm run build
 ```
 
-## 相关文档
+### Code Commit Conventions
+
+
+## Reference
 - [dumi](https://d.umijs.org/zh-CN)
 - [father-build](https://github.com/umijs/father)
 - [lerna](https://github.com/lerna/lerna#readme)

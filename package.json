@@ -46,6 +46,7 @@
     "@types/jest": "^24.0.13",
     "@umijs/fabric": "^2.5.7",
     "@umijs/test": "^3.0.5",
+    "commitizen": "^4.2.4",
     "cross-env": "^7.0.3",
     "cz-conventional-changelog": "^3.3.0",
     "cz-customizable": "^6.3.0",

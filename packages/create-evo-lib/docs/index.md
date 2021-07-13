@@ -79,10 +79,38 @@ $ npm run build
 ```
 
 ### Code Commit Conventions
+> 利用 commitlint 和 commitizen 来规范代码库的 commit
+- `commitlint` 校验 commit 信息
+  
+```json
+// 使用 commitlint
+{
+  "gitHooks": {
+    "commit-msg": "commitlint -E GIT_PARAMS"
+  },
+}
+```
+
+```javascript
+// .commitlintrc.js 配置校验文件
+// 详细配置方法请看 https://commitlint.js.org/#/
+
+```
+
+- `cz-customizable` 插件可自定义 commitizen
+  
+```javascript
+// .cz-config.js 配置文件
+
+```
+
+
 
 
 ## Reference
 - [dumi](https://d.umijs.org/zh-CN)
 - [father-build](https://github.com/umijs/father)
 - [lerna](https://github.com/lerna/lerna#readme)
+- [commitlint](https://github.com/conventional-changelog/commitlint#readme)
+- [commitizen](http://commitizen.github.io/cz-cli/)
 

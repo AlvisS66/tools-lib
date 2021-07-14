@@ -9,6 +9,7 @@
     },
     "publish": {
       "registry": "https://registry.npmjs.org/",
+      "message": "chore(release): publish",
       "ignoreChanges": [
         "**/*.md",
         "**/*.test.ts",

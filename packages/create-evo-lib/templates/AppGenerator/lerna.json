@@ -8,7 +8,24 @@
       "includeMergedTags": true
     },
     "publish": {
-      "registry": "https://registry.npmjs.org/"
+      "registry": "https://registry.npmjs.org/",
+      "ignoreChanges": [
+        "**/*.md",
+        "**/*.test.ts",
+        "**/*.e2e.ts",
+        "**/demos/**",
+        "**/fixtures/**",
+        "**/dist/**",
+        "**/lib/**",
+        "**/es/**",
+        "**/test/**"
+      ]
+    }
+  },
+  "changelog": {
+    "labels": {
+      "feat": "A new feature",
+      "fix": "A bug fix"
     }
   },
   "version": "independent",

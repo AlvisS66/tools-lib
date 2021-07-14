@@ -24,10 +24,12 @@
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
     "lint:ts": "eslint --ignore-pattern **/__tests__/* --ignore-pattern **/demo/* \"packages/*/src/**/*.{ts,tsx}\"",
     "test": "umi-test",
-    "test:coverage": "umi-test --coverage"
+    "test:coverage": "umi-test --coverage",
+    "commit": "cz"
   },
   "gitHooks": {
-    "pre-commit": "lint-staged"
+    "pre-commit": "lint-staged",
+    "commit-msg": "commitlint -E GIT_PARAMS"
   },
   "lint-staged": {
     "*.{js,jsx,less,md,json}": [
@@ -39,10 +41,15 @@
     "packages/*/src/**/*.{js,jsx,ts,tsx}": "npm run lint:ts"
   },
   "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "@types/jest": "^24.0.13",
     "@umijs/fabric": "^2.5.7",
     "@umijs/test": "^3.0.5",
-    "@types/jest": "^24.0.13",
+    "commitizen": "^4.2.4",
     "cross-env": "^7.0.3",
+    "cz-conventional-changelog": "^3.3.0",
+    "cz-customizable": "^6.3.0",
     "dumi": "^1.1.20",
     "eslint": "^7.28.0",
     "father-build": "^1.19.6",
@@ -58,5 +65,10 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/umijs/umi.git"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    }
   }
 }

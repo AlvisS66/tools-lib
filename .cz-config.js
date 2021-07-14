@@ -30,7 +30,11 @@ module.exports = {
     { value: 'WIP', name: 'WIP:      Work in progress' },
   ],
 
-  scopes: [{ name: 'global' }, ...pkgs.map((name) => ({ name }))],
+  scopes: [
+    { name: 'global' },
+    { name: 'release' },
+    ...pkgs.map((name) => ({ name })),
+  ],
 
   allowTicketNumber: false,
   isTicketNumberRequired: false,

@@ -1,3 +1,9 @@
+const { readdirSync } = require('fs');
+const { join } = require('path');
+const pkgs = readdirSync(join(__dirname, 'packages')).filter(
+  (pkg) => pkg.charAt(0) !== '.',
+);
+
 module.exports = {
   types: [
     { value: 'feat', name: 'feat:     A new feature' },
@@ -24,7 +30,7 @@ module.exports = {
     { value: 'WIP', name: 'WIP:      Work in progress' },
   ],
 
-  scopes: [{ name: 'global' }, { name: 'create-evo-lib' }],
+  scopes: [{ name: 'global' }, ...pkgs.map((name) => ({ name }))],
 
   allowTicketNumber: false,
   isTicketNumberRequired: false,
@@ -62,7 +68,7 @@ module.exports = {
   skipQuestions: ['body'],
 
   // limit subject length
-  subjectLimit: 100,
+  subjectLimit: 75,
   // breaklineChar: '|', // It is supported for fields body and footer.
   // footerPrefix : 'ISSUES CLOSED:'
   // askForBreakingChangeFirst : true, // default is false

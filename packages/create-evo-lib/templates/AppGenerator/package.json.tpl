@@ -71,6 +71,9 @@
     "type": "git",
     "url": "git+https://github.com/AlvisS66/tools-lib.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-customizable"

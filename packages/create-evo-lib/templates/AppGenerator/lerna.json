@@ -20,14 +20,16 @@
         "**/lib/**",
         "**/es/**",
         "**/test/**"
-      ]
+      ],
+      "conventionalCommits": true
     }
   },
   "changelog": {
     "labels": {
       "feat": "A new feature",
       "fix": "A bug fix"
-    }
+    },
+    "cacheDir": ".changelog"
   },
   "version": "independent",
   "lerna": "2.11.0"

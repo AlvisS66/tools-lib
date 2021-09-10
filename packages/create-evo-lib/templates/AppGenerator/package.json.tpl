@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "react-tools",
+  "name": "tools-lib",
   "version": "1.0.0",
   "workspaces": [
     "packages/*"
@@ -25,7 +25,9 @@
     "lint:ts": "eslint --ignore-pattern **/__tests__/* --ignore-pattern **/demo/* \"packages/*/src/**/*.{ts,tsx}\"",
     "test": "umi-test",
     "test:coverage": "umi-test --coverage",
-    "commit": "cz"
+    "commit": "cz",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "lerna:changelog": "cross-env GITHUB_AUTH=xxx lerna-changelog"
   },
   "gitHooks": {
     "pre-commit": "lint-staged",
@@ -47,6 +49,7 @@
     "@umijs/fabric": "^2.5.7",
     "@umijs/test": "^3.0.5",
     "commitizen": "^4.2.4",
+    "conventional-changelog-cli": "^2.1.1",
     "cross-env": "^7.0.3",
     "cz-conventional-changelog": "^3.3.0",
     "cz-customizable": "^6.3.0",
@@ -55,16 +58,18 @@
     "father-build": "^1.19.6",
     "gh-pages": "^3.0.0",
     "lerna": "^4.0.0",
+    "lerna-changelog": "^2.1.0",
     "lint-staged": "^10.0.7",
     "prettier": "^2.2.0",
     "react": "17.x",
     "react-dom": "17.x",
+    "rimraf": "^3.0.2",
     "stylelint": "^13.13.0",
     "yorkie": "^2.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/umijs/umi.git"
+    "url": "git+https://github.com/AlvisS66/tools-lib.git"
   },
   "config": {
     "commitizen": {

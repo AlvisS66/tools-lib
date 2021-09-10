@@ -20,14 +20,17 @@
         "**/lib/**",
         "**/es/**",
         "**/test/**"
-      ]
+      ],
+      "conventionalCommits": true
     }
   },
   "changelog": {
+    "repo": "AlvisS66/tools-lib",
     "labels": {
       "feat": "A new feature",
       "fix": "A bug fix"
-    }
+    },
+    "cacheDir": ".changelog"
   },
   "version": "independent",
   "lerna": "2.11.0"

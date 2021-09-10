@@ -27,7 +27,7 @@
     "test:coverage": "umi-test --coverage",
     "commit": "cz",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
-    "lerna:changelog": "cross-env GITHUB_AUTH=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 lerna-changelog"
+    "lerna:changelog": "cross-env GITHUB_AUTH=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 lerna-changelog"
   },
   "gitHooks": {
     "pre-commit": "lint-staged",

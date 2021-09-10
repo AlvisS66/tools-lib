@@ -27,7 +27,7 @@
     "test:coverage": "umi-test --coverage",
     "commit": "cz",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
-    "lerna:changelog": "cross-env GITHUB_AUTH=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 lerna-changelog"
+    "lerna:changelog": "cross-env GITHUB_AUTH=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 lerna-changelog"
   },
   "gitHooks": {
     "pre-commit": "lint-staged",
@@ -71,10 +71,12 @@
     "type": "git",
     "url": "git+https://github.com/AlvisS66/tools-lib.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-customizable"
     }
-  },
-  "GITHUB_AUTH": "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"
+  }
 }

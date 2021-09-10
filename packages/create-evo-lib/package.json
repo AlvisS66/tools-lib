@@ -16,10 +16,11 @@
   "keywords": [
     "dumi",
     "father-build",
-    "umi"
+    "umi",
+    "lib-template"
   ],
   "authors": [
-    "Peach <scdzwyxst@gmail.com> (https://github.com/PeachScript)"
+    "JianLi <x842661121o@outlook.com> (https://github.com/AlvisS66)"
   ],
   "license": "MIT",
   "bugs": "https://github.com/AlvisS66/tools-lib/issues",

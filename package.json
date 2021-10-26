@@ -67,6 +67,7 @@
     "stylelint": "^13.13.0",
     "yorkie": "^2.0.0"
   },
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AlvisS66/tools-lib.git"
